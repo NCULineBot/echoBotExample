@@ -13,8 +13,8 @@ from linebot.models import *
 app = Flask(__name__)
 
 
-line_bot_api = LineBotApi('放lineAPI拿到的access token')
-handler = WebhookHandler('放lineAPI拿到的Channel secret')
+line_bot_api = LineBotApi('5mbmhhiSWG1hnpZZ7jtkb4DBpSoVFUW7QDd35Aghz5WQk/0YE8PWKK0O7gO09ux5nUrnO5Yk3Tg2PLrwDYfm2FxQr5u4ld9TlyPqTRNktEauald/IPc/WJRIEe3oY6vaxKEutB9pQ50/Ch/Wkq+uaAdB04t89/1O/w1cDnyilFU=')
+handler = WebhookHandler('fdaddde4261e3c297530bd0325de9186')
 
 @app.route("/", methods=['GET'])
 def hello():
